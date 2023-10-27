@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url(./fontes/Ubuntu-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: 'Ubuntu-Regular', 'Cascadia-code';
+}
+
+body{
+  background-color: #006effcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.corpo{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to top, rgb(255, 75, 31), rgb(255, 144, 104));
+  border-radius: 50px;
+  margin: 10px;
+  height: 635px;
+  width: 435px;
+}
+
+h1{
+  background-color: #006effcc;
+  border-radius: 50px;
+  padding: 8px;
 }
